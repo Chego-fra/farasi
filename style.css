@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* <!-- ---------------------------------------nav---------------------------------- - */
+.nav{
+    background: #152228;
+    display: flex;
+    padding: 5px 10%;
+    align-items: center;
+}
+.nav .logo{
+    margin-left: 100px;
+}
+.nav .logo img{
+    width: 200px;
+}
+.nav .links{
+    margin-left: 100px;
+}
+.nav .links a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+.nav .links a:hover{
+    color: #3da060;
+}
+
+/* <!-- ---------------------------------------main---------------------------------- -- */
+.main{
+    width: 100%;
+    height: 524px;
+    display: flex;   
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.main video{
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 524px;
+    z-index: -1;
+}
+
+/* <!-- ---------------------------------------Diffrence---------------------------------- --> */
+.diffrence{
+    padding: 30px 5%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.diffrence h1{margin-bottom: 30px;}
+.diffrence .card{
+    display: flex;
+}
+.diffrence .card .one{
+    margin-left: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+.diffrence .card .one img{
+    width: 200px;
+}
+.diffrence .card .one p{
+    font-size: 14px;
+    line-height: 1.5;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* <!-- ---------------------------------------how it works---------------------------------- --> */
+.how{
+    background: #f1faff;
+    padding: 40px 5%;
+    display: flex;
+    align-items: center;
+}
+.how .left h2{
+    color: #54595f;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+.how .left h4{
+    color: #3da060;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.how .left p{
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.how .right img{
+    width: 100%;
+}
+
+/* <!-- ---------------------------------------why---------------------------------- --> */
+.why{
+    background: #f7f8f9;
+    text-align: center;
+    padding: 30px 5%;
+}
+.why h1{
+    color: #54595f;
+    margin-bottom: 30px;
+}
+.why .cards{
+    display: flex;
+    width: 100%;
+}
+.why .cards .two{
+    margin-left: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+}
+.why .cards .two img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.why .cards .two h2{
+    margin-bottom: 20px;
+    color: #3da060;
+    font-size: 20px;
+}
+.why .cards .two p{
+    width: 300px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* <!-- ---------------------------------------footer---------------------------------- --> */
+.footer{
+    background: #152228;
+    padding: 10px 5%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+.footer .one{
+    margin-left: 40px;
+}
+.footer .one img{
+    width: 100px;
+}
+.footer .one  a{
+    text-decoration: none;
+    color: white;
+}
+.footer .one  a i{
+    background: #3da060;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-left: 40px;
+}
+.footer .one h1{
+    font-size: 18px;
+}
