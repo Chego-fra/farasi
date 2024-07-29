@@ -163,3 +163,44 @@
 .footer .one h1{
     font-size: 18px;
 }
+.about{
+    display: flex;
+    padding: 30px 12%;
+    align-items: center;
+}
+.about .left img{
+    /* width: 100%; */
+}
+.about .right{
+    margin-left: 40px;
+}
+
+.about .right h1{
+    color: black;
+    font-size: 40px;
+}
+
+.about .right p{
+    font-size: 18px;
+    color: #38393a;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.mission{
+    display: flex;
+    padding: 30px 15%;
+}
+
+.mission .left{
+    margin-right: 40px;
+}
+.mission .left h1{
+    color: black;
+    font-size: 40px;
+}
+
+.mission .left p{
+    font-size: 18px;
+    /* line-height: 1.5; */
+    margin-bottom: 20px;
+}
