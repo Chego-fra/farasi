@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* <!-- ---------------------------------------nav---------------------------------- - */
+.navc{
+    background: #152228;
+    display: flex;
+    padding: 5px 10%;
+    align-items: center;
+}
+.navc .logoc{
+    margin-left: 100px;
+}
+.navc .logoc img{
+    width: 200px;
+}
+.navc .linksc{
+    margin-left: 100px;
+}
+.navc .linksc a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+.navc .linksc a:hover{
+    color: #3da060;
+}
+/* 
+<!-- ---------------------------------------career---------------------------------- --> */
+
+.car{
+    background-image: url(./images/clock.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 15%;
+    color: white;
+    height: 670px;
+}
+.car h1{
+    font-size: 60px;
+    color: aqua;
+    margin-bottom: 30px;
+}
+.car p{
+    font-size: 22px;
+    width: 600px;
+    margin-bottom:40px;
+}
+.car i{
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 10px;
+    font-size: 45px;
+}
+/* <!-- ---------------------------------------footer---------------------------------- --> */
+.footerc{
+    background: #152228;
+    padding: 10px 5%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+.footerc .onec{
+    margin-left: 40px;
+}
+.footerc .onec img{
+    width: 100px;
+}
+.footerc .onec  a{
+    text-decoration: none;
+    color: white;
+}
+.footerc .onec  a i{
+    background: #3da060;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-left: 40px;
+}
+.footerc .onec h1{
+    font-size: 18px;
+}
