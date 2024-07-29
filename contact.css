@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* <!-- ---------------------------------------nav---------------------------------- - */
+.navo{
+    background: #152228;
+    display: flex;
+    padding: 5px 10%;
+    align-items: center;
+}
+.navo .logoo{
+    margin-left: 100px;
+}
+.navo .logoo img{
+    width: 200px;
+}
+.navo .linkss{
+    margin-left: 100px;
+}
+.navo .linkss a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+.navo .linkss a:hover{
+    color: #3da060;
+}
+
+/* main */
+.background{
+    background-color: #F0F0F0;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    padding: 40px 5%;
+}
+.dil-right{
+    text-align: center;
+    margin-left: 40px;
+    color: #333;
+    font-size: 30px;
+}
+
+
+/* us */
+.us{
+    display: flex;
+    padding: 20px;
+}
+h2{
+    padding: 5px 5%;
+    margin-left: 80px;
+   font-size: 30px;
+}
+.dilen-left{
+    flex: 1;
+    margin: 0 20px;
+    text-align: center;
+}
+.dilen-left p{
+    margin-bottom: 20px;
+}
+/* <!-- ---------------------------------------footer---------------------------------- --> */
+.footers{
+    background: #152228;
+    padding: 10px 5%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+.footers .ones{
+    margin-left: 40px;
+}
+.footers .ones img{
+    width: 100px;
+}
+.footers .ones  a{
+    text-decoration: none;
+    color: white;
+}
+.footers .ones  a i{
+    background: #3da060;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-left: 40px;
+}
+.footers .ones h1{
+    font-size: 18px;
+}
